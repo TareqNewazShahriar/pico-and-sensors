@@ -1,6 +1,6 @@
 import time
 from machine import Pin
-from nec import NEC_16
+from libraries.nec import NEC_16
 
 remote_control_buttons = {
     0x45: 'POWER',

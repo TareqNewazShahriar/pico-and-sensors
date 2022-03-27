@@ -6,7 +6,7 @@
 # Copyright Peter Hinch 2020 Released under the MIT license
 
 from utime import ticks_us, ticks_diff
-from ir_rx import IR_RX
+from libraries.ir_rx import IR_RX
 
 class NEC_ABC(IR_RX):
     def __init__(self, pin, extended, callback, *args):

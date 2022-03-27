@@ -1,5 +1,5 @@
 from machine import Pin, I2C
-from pico_i2c_lcd import I2cLcd
+from libraries.pico_i2c_lcd import I2cLcd
 import utime
 
 i2c = I2C(0, scl=Pin(1), sda=Pin(0), freq=10000)

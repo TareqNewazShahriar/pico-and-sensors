@@ -1,5 +1,5 @@
 from machine import Pin, I2C
-from pico_i2c_lcd import I2cLcd
+from libraries.pico_i2c_lcd import I2cLcd
 import utime
 
 sensor_temp = machine.ADC(4)
