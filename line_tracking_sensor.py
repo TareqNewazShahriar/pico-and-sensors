@@ -3,6 +3,9 @@
 # a black line on white background or a white line
 # on a black background.
 # Digital (binary) values will be enough for detection.
+# There's a potentiometer onb on the sensor to incread or decrease hte sensitivity fo the sendor.
+# This sensor has IR sender and receiver which works as detector of white and black.
+# A 1inch straigh and unambiguous line should be drawn to work with.
 
 from machine import Pin, ADC, I2C
 from time import sleep
