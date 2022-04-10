@@ -1,10 +1,3 @@
-# Cheap gas sensors needed to be calibrated after purchasing.
-# I.e, after running the sensor, values should be monitored to
-# figure out what values are shown in clear air and what value
-# are shown for detected gas.
-# Those sensors are not that accurate and should not be used
-# for professional purpose.
-
 from machine import Pin, ADC, I2C
 from utime import sleep
 from libraries.pico_i2c_lcd import I2cLcd
