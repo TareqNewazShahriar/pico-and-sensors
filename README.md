@@ -36,3 +36,12 @@ A 1inch straigh and unambiguous line should be drawn to work with.
 
 ## Sound Sensor
 Probably too much analog (voltage) noise in my sensor (from HiPi). Value is always high.
+
+## Joystick
+HiPi Joystick has 3 pins besides VCC and GND. X, Y pins will be in ADC;
+Bt (middle button) will be a binary pin.
+Neutral value for button is 1, 0 - when pressed. Neutral value for 
+X or Y is around 65535/2. Value will increase or decrease according 
+to the inclination towards a direction of the stick.  
+For Example, moving the stick UP will slowly decrease X value (this 
+is odd, up/down should be connected to Y ware of the module).
