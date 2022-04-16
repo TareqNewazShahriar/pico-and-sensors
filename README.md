@@ -3,9 +3,7 @@
 ## Gsa Sensor (MQ2)
 Gas sensors (the cheap one that we purchase for experiment)
 needed to be calibrated after purchasing.
-I.e, after running the sensor, values should be monitored to
-figure out what values are shown in clear air and what value
-are shown for detected gas.
+I.e, after running the sensor, voltage output in clean air should be used to calibrate the sensor reading.
 Those sensors are not that accurate and should not be used
 for professional purpose.
 
