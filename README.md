@@ -9,10 +9,10 @@ are shown for detected gas.
 Those sensors are not that accurate and should not be used
 for professional purpose.
 
-For Gas (MQ2) sensor, use the code from mq.py file and remove ADC (MCP3008) chip related code:
+For Gas (MQ2) sensor, use that code, written for Raspberry PI; so remove ADC (MCP3008) chip related code:
 https://github.com/tutRPi/Raspberry-Pi-Gas-Sensor-MQ/blob/master/mq.py
 
-Also have a look on this:
+Also have a look, written for raspberry pi:
 https://github.com/filips123/GasDetection
 
 
