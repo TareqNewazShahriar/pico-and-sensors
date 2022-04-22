@@ -51,3 +51,4 @@ def callback(data, addr, ctrl):
         
 ir = NEC_16(Pin(26, Pin.IN), callback)
 
+
