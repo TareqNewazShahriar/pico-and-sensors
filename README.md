@@ -13,7 +13,7 @@ ac_current_regulator_with_remote.py
 ### Demos:
 <img width="200" src="https://lh3.googleusercontent.com/pw/AM-JKLUUTcbrkwN0k4GdYYPLzYfm2h_Gtfh3CcplOAoeuN--eVhhz1spzuz4gzJSnulnbgmCVrdLSqaIklSBfi5040YH_uq6OawRwKKizfJiW0rXISrLq6fbHqKEua75bRL2WJePeRa4QsSyLUSGPR8SSPAO=w1191-h893-no" alt="raspberry pi pico with circuitry to make a ac current regulator using remote control and infrared receiver">
 
-<a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipOptelYxb8-xW6-5J3ekF9xvNZq1vNsd7QG7PdN?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a fan with remote control (video; sorry for the background scream of my kid)</a>
+<a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipOptelYxb8-xW6-5J3ekF9xvNZq1vNsd7QG7PdN?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a fan with remote control (video; bonus- background scream of my kid)</a>
 
 <a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipMz-pJeHNw6iP89N1ydZmmvExvDDAOiCz8xLoHA?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a bulb with remote control (video)</a>
 
