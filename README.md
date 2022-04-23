@@ -8,6 +8,7 @@ Range hints for output signal to optocoupler (from microcontroller to AC load), 
 - for 100w bulb, range is: 70 - 160
 - for 0.5w dim led, range is: 86 - 180
 
+<img src="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipPKs3BbFrk2cPhdDO6dPTD-G_C2jTbT9vitNkPD?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB" alt="raspberry pi pico with circuitry to make a ac current regulator using remote control and infrared receiver">
 
 ## Gsa Sensor (MQ2)
 Gas sensors (the cheap one that we purchase for experiment)
