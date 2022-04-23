@@ -1,5 +1,14 @@
 # raspberry-pi-pico-codes
 
+## Regulating AC Current
+Regulating AC current using TRIAC and optocouplers; and sending command using a remote control.
+
+Range hints for output signal to optocoupler (from microcontroller to AC load), with respect to 220V:
+- for 65w stand fan (GFC brand), range is: 101 - 140
+- for 100w bulb, range is: 70 - 160
+- for 0.5w dim led, range is: 86 - 180
+
+
 ## Gsa Sensor (MQ2)
 Gas sensors (the cheap one that we purchase for experiment)
 needed to be calibrated after purchasing.
@@ -43,3 +52,7 @@ X or Y is around 65535/2. Value will increase or decrease according
 to the inclination towards a direction of the stick.  
 For Example, moving the stick UP will slowly decrease X value (this 
 is odd, up/down should be connected to Y ware of the module).
+
+
+## All Demo Pictures and Videos
+https://photos.app.goo.gl/YCahwJrahAJGaoKj6
