@@ -9,7 +9,7 @@ remote_control_buttons = {
     0x09: '+'
 }
 
-optocoupler_4n35 = ADC(28)
+optocoupler_4n35 = ADC(0)
 optocoupler_moc3052 = PWM(Pin(26)) # OUT
 optocoupler_moc3052.freq(1000)
 

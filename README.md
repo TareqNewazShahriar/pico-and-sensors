@@ -19,6 +19,21 @@ ac_current_regulator_with_remote.py
 
 <a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipPbjrCDit_wPDPTwOCN23eMKoTIX3RGfSgwVuLn?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a bulb with potentiometer (video)</a>
 
+## Take reading of AC Current
+Code file: ac_current_reading.py
+
+This program monitors AC current and keep
+track of minimum and maximum reading.
+
+### Circuitry
+I used rectifier bridge 2W10 and optocoupler 4N35.
+Schematic (only left side circuitry of arduino is accountable for AC current reading):
+<a target="_blank" href="https://lh3.googleusercontent.com/pw/AM-JKLXFKrohAGjWrk25F_v2sq2eaMBxQOGTispUBZIjVsyH1zBfgdsUs7SPJRppQ5ONNgDjZ3tImUcQBZd7oDOYtAc-8LwWNZYcYVFl4V1EkUV3-gNIRqlRYCXxVrsHfa2J2iBoStuJt17DVIM6jw0NnTYy=w1380-h525-no?authuser=0">
+	<img width="200" src="https://lh3.googleusercontent.com/pw/AM-JKLXFKrohAGjWrk25F_v2sq2eaMBxQOGTispUBZIjVsyH1zBfgdsUs7SPJRppQ5ONNgDjZ3tImUcQBZd7oDOYtAc-8LwWNZYcYVFl4V1EkUV3-gNIRqlRYCXxVrsHfa2J2iBoStuJt17DVIM6jw0NnTYy=w1380-h525-no?authuser=0">
+</a>
+
+Credit: https://youtu.be/QYUcXIhxL1I
+
 
 ## Gsa Sensor (MQ2)
 Gas sensors (the cheap one that we purchase for experiment)
