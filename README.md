@@ -27,7 +27,8 @@ track of minimum and maximum reading.
 
 ### Circuitry
 I used rectifier bridge 2W10 and optocoupler 4N35.
-Schematic (only left side circuitry of arduino is accountable for AC current reading):
+Schematic (only left side circuitry of arduino is accountable for AC current reading):  
+
 <a target="_blank" href="https://lh3.googleusercontent.com/pw/AM-JKLXFKrohAGjWrk25F_v2sq2eaMBxQOGTispUBZIjVsyH1zBfgdsUs7SPJRppQ5ONNgDjZ3tImUcQBZd7oDOYtAc-8LwWNZYcYVFl4V1EkUV3-gNIRqlRYCXxVrsHfa2J2iBoStuJt17DVIM6jw0NnTYy=w1380-h525-no?authuser=0">
 	<img width="200" src="https://lh3.googleusercontent.com/pw/AM-JKLXFKrohAGjWrk25F_v2sq2eaMBxQOGTispUBZIjVsyH1zBfgdsUs7SPJRppQ5ONNgDjZ3tImUcQBZd7oDOYtAc-8LwWNZYcYVFl4V1EkUV3-gNIRqlRYCXxVrsHfa2J2iBoStuJt17DVIM6jw0NnTYy=w1380-h525-no?authuser=0">
 </a>
