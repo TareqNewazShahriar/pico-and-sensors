@@ -37,7 +37,7 @@ Schematic (only left side circuitry of arduino is accountable for AC current rea
 	<img width="300" src="https://lh3.googleusercontent.com/pw/AM-JKLVBCMpDeZQtJJXvEZquM56zN7TSVx1FrqvSguG47QXYfUwWHXOh_ZW-3SDl-5lPUca_Zg_a4W_bzuBRJzh_fOvo6c0dVXnspQqAENtuXnUffW06ss17QK66vhmuWlF2L_goFxa4xmDnTcxPvG_Z038A=w1470-h559-no">
 </a>
 
-Credit: https://youtu.be/QYUcXIhxL1I
+Credit: https://youtu.be/QYUcXIhxL1I?t=537
 
 
 ## Gsa Sensor (MQ2)
