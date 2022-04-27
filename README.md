@@ -33,8 +33,8 @@ Total 100000 reading taken in 4566 ms
 ```
 
 Schematic (only left side circuitry of arduino is accountable for AC current reading):  
-<a target="_blank" href="https://lh3.googleusercontent.com/pw/AM-JKLXFKrohAGjWrk25F_v2sq2eaMBxQOGTispUBZIjVsyH1zBfgdsUs7SPJRppQ5ONNgDjZ3tImUcQBZd7oDOYtAc-8LwWNZYcYVFl4V1EkUV3-gNIRqlRYCXxVrsHfa2J2iBoStuJt17DVIM6jw0NnTYy=w1380-h525-no?authuser=0">
-	<img width="200" src="https://lh3.googleusercontent.com/pw/AM-JKLXFKrohAGjWrk25F_v2sq2eaMBxQOGTispUBZIjVsyH1zBfgdsUs7SPJRppQ5ONNgDjZ3tImUcQBZd7oDOYtAc-8LwWNZYcYVFl4V1EkUV3-gNIRqlRYCXxVrsHfa2J2iBoStuJt17DVIM6jw0NnTYy=w1380-h525-no?authuser=0">
+<a target="_blank" href="https://lh3.googleusercontent.com/pw/AM-JKLVBCMpDeZQtJJXvEZquM56zN7TSVx1FrqvSguG47QXYfUwWHXOh_ZW-3SDl-5lPUca_Zg_a4W_bzuBRJzh_fOvo6c0dVXnspQqAENtuXnUffW06ss17QK66vhmuWlF2L_goFxa4xmDnTcxPvG_Z038A=w1470-h559-no">
+	<img width="300" src="https://lh3.googleusercontent.com/pw/AM-JKLVBCMpDeZQtJJXvEZquM56zN7TSVx1FrqvSguG47QXYfUwWHXOh_ZW-3SDl-5lPUca_Zg_a4W_bzuBRJzh_fOvo6c0dVXnspQqAENtuXnUffW06ss17QK66vhmuWlF2L_goFxa4xmDnTcxPvG_Z038A=w1470-h559-no">
 </a>
 
 Credit: https://youtu.be/QYUcXIhxL1I
