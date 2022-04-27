@@ -10,7 +10,7 @@ Range hints for output signal to optocoupler (from microcontroller to AC load), 
 
 Code file: ac_current_regulator_with_remote.py
 
-### Demos
+**Demos**  
 Video: <a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipOptelYxb8-xW6-5J3ekF9xvNZq1vNsd7QG7PdN?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a fan with remote control (bonus- background scream of my kid)</a>
 
 Video: <a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipMz-pJeHNw6iP89N1ydZmmvExvDDAOiCz8xLoHA?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a bulb with remote control</a>
@@ -23,10 +23,16 @@ Code file: ac_current_reading.py
 This program monitors AC current and keep
 track of minimum and maximum reading.
 
-### Circuitry
+**Circuitry**  
 I used rectifier bridge 2W10 and optocoupler 4N35.
-Schematic (only left side circuitry of arduino is accountable for AC current reading):  
 
+Sample output:  
+```
+min current: 128 max current: 65535 avg: 51398.02
+Total 100000 reading taken in 4566 ms
+```
+
+Schematic (only left side circuitry of arduino is accountable for AC current reading):  
 <a target="_blank" href="https://lh3.googleusercontent.com/pw/AM-JKLXFKrohAGjWrk25F_v2sq2eaMBxQOGTispUBZIjVsyH1zBfgdsUs7SPJRppQ5ONNgDjZ3tImUcQBZd7oDOYtAc-8LwWNZYcYVFl4V1EkUV3-gNIRqlRYCXxVrsHfa2J2iBoStuJt17DVIM6jw0NnTYy=w1380-h525-no?authuser=0">
 	<img width="200" src="https://lh3.googleusercontent.com/pw/AM-JKLXFKrohAGjWrk25F_v2sq2eaMBxQOGTispUBZIjVsyH1zBfgdsUs7SPJRppQ5ONNgDjZ3tImUcQBZd7oDOYtAc-8LwWNZYcYVFl4V1EkUV3-gNIRqlRYCXxVrsHfa2J2iBoStuJt17DVIM6jw0NnTYy=w1380-h525-no?authuser=0">
 </a>
