@@ -1,21 +1,15 @@
 from machine import Pin, ADC
-from time import sleep
+import time
 
-ac = ADC(0)
+ac = ADC(2)
 
-min_current = 65535
-max_current = 0
-total = 0
+start_time = time.ticks_ms()
 i = 0
-while i < 100000:
+while i < 500:
     i += 1
     val = ac.read_u16()
-    if val < min_current:
-        min_current = val
-    elif val > max_current:
-        max_current = val
+    # put a hyphen to point out each near zero crossing values
+    print(val, 'amp', time.ticks_diff(time.ticks_ms(), start_time), 'ms')
+    time.sleep(0.01)
     
-    total += val
-    if i % 10000 == 0:
-        print('min_current', min_current, 'max_current', max_current, 'avg', total/i)
-        
+print('reading taken in', time.ticks_diff(time.ticks_ms(), start_time), 'ms')
