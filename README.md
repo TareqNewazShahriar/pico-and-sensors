@@ -1,7 +1,7 @@
 # raspberry-pi-pico-codes
 
 ## Regulating AC Current
-Regulating AC current using TRIAC and optocouplers; and sending command using a remote control.
+Regulating AC current using TRIAC and optocouplers; and sending command using a remote control. I used PWM to regulate the current; this method should not be used for real-life appliances.
 
 Range hints for output signal to optocoupler (from microcontroller to AC load), with respect to 220V:
 - for 65w stand fan (GFC brand), range is: 101 - 140
