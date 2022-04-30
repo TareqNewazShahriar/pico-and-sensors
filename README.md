@@ -8,16 +8,14 @@ Range hints for output signal to optocoupler (from microcontroller to AC load), 
 - for 100w bulb, range is: 70 - 160
 - for 0.5w dim led, range is: 86 - 180
 
-### Code
-ac_current_regulator_with_remote.py
-### Demos:
-<img width="200" src="https://lh3.googleusercontent.com/pw/AM-JKLUUTcbrkwN0k4GdYYPLzYfm2h_Gtfh3CcplOAoeuN--eVhhz1spzuz4gzJSnulnbgmCVrdLSqaIklSBfi5040YH_uq6OawRwKKizfJiW0rXISrLq6fbHqKEua75bRL2WJePeRa4QsSyLUSGPR8SSPAO=w1191-h893-no" alt="raspberry pi pico with circuitry to make a ac current regulator using remote control and infrared receiver">
+Code file: ac_current_regulator_with_remote.py
 
-<a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipOptelYxb8-xW6-5J3ekF9xvNZq1vNsd7QG7PdN?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a fan with remote control (video; bonus- background scream of my kid)</a>
+**Demos**  
+Video: <a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipOptelYxb8-xW6-5J3ekF9xvNZq1vNsd7QG7PdN?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a fan with remote control (bonus- background scream of my kid)</a>
 
-<a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipMz-pJeHNw6iP89N1ydZmmvExvDDAOiCz8xLoHA?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a bulb with remote control (video)</a>
+Video: <a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipMz-pJeHNw6iP89N1ydZmmvExvDDAOiCz8xLoHA?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a bulb with remote control</a>
 
-<a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipPbjrCDit_wPDPTwOCN23eMKoTIX3RGfSgwVuLn?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a bulb with potentiometer (video)</a>
+Video: <a href="https://photos.google.com/share/AF1QipMxJeXe8Dkfav_fJePZEocG_cxru361X8TlcnVONiT_fjRgSJim8aCU-Fa11UC1pA/photo/AF1QipPbjrCDit_wPDPTwOCN23eMKoTIX3RGfSgwVuLn?key=WU9GYXdtT3dUOHdkZVVSRlJKeWJBaVRmdDNXQjNB">Regulating a bulb with potentiometer</a>
 
 ## Take reading of AC Current
 Code file: ac_current_reading.py
@@ -25,15 +23,21 @@ Code file: ac_current_reading.py
 This program monitors AC current and keep
 track of minimum and maximum reading.
 
-### Circuitry
+**Circuitry**  
 I used rectifier bridge 2W10 and optocoupler 4N35.
-Schematic (only left side circuitry of arduino is accountable for AC current reading):  
 
-<a target="_blank" href="https://lh3.googleusercontent.com/pw/AM-JKLXFKrohAGjWrk25F_v2sq2eaMBxQOGTispUBZIjVsyH1zBfgdsUs7SPJRppQ5ONNgDjZ3tImUcQBZd7oDOYtAc-8LwWNZYcYVFl4V1EkUV3-gNIRqlRYCXxVrsHfa2J2iBoStuJt17DVIM6jw0NnTYy=w1380-h525-no?authuser=0">
-	<img width="200" src="https://lh3.googleusercontent.com/pw/AM-JKLXFKrohAGjWrk25F_v2sq2eaMBxQOGTispUBZIjVsyH1zBfgdsUs7SPJRppQ5ONNgDjZ3tImUcQBZd7oDOYtAc-8LwWNZYcYVFl4V1EkUV3-gNIRqlRYCXxVrsHfa2J2iBoStuJt17DVIM6jw0NnTYy=w1380-h525-no?authuser=0">
+Sample output:  
+```
+min current: 128 max current: 65535 avg: 51398.02
+Total 100000 reading taken in 4566 ms
+```
+
+Schematic (only left side circuitry of arduino is accountable for AC current reading):  
+<a target="_blank" href="https://lh3.googleusercontent.com/pw/AM-JKLVBCMpDeZQtJJXvEZquM56zN7TSVx1FrqvSguG47QXYfUwWHXOh_ZW-3SDl-5lPUca_Zg_a4W_bzuBRJzh_fOvo6c0dVXnspQqAENtuXnUffW06ss17QK66vhmuWlF2L_goFxa4xmDnTcxPvG_Z038A=w1470-h559-no">
+	<img width="300" src="https://lh3.googleusercontent.com/pw/AM-JKLVBCMpDeZQtJJXvEZquM56zN7TSVx1FrqvSguG47QXYfUwWHXOh_ZW-3SDl-5lPUca_Zg_a4W_bzuBRJzh_fOvo6c0dVXnspQqAENtuXnUffW06ss17QK66vhmuWlF2L_goFxa4xmDnTcxPvG_Z038A=w1470-h559-no">
 </a>
 
-Credit: https://youtu.be/QYUcXIhxL1I
+Credit: https://youtu.be/QYUcXIhxL1I?t=537
 
 
 ## Gsa Sensor (MQ2)
