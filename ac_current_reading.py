@@ -1,4 +1,4 @@
-from machine import Pin, ADC
+from machine import ADC
 import time
 
 ac = ADC(2)
