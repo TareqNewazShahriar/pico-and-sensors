@@ -85,5 +85,11 @@ For Example, moving the stick UP will slowly decrease X value (this
 is odd, up/down should be connected to Y ware of the module).
 
 
+## Motion Sensor aka. Passive Infrared Receiver (PIR)
+Motion sensor that I'm using HC-SR501, just detects motion
+without any level of movement, like the movement is small
+or big . So its output is binary.
+
+
 ## All Demo Pictures and Videos
 https://photos.app.goo.gl/YCahwJrahAJGaoKj6
