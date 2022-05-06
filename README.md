@@ -32,14 +32,6 @@ min current: 128 max current: 65535 avg: 51398.02
 Total 100000 reading taken in 4566 ms
 ```
 
-Schematic (only left side circuitry of arduino is accountable for AC current reading):  
-<a target="_blank" href="https://lh3.googleusercontent.com/pw/AM-JKLVBCMpDeZQtJJXvEZquM56zN7TSVx1FrqvSguG47QXYfUwWHXOh_ZW-3SDl-5lPUca_Zg_a4W_bzuBRJzh_fOvo6c0dVXnspQqAENtuXnUffW06ss17QK66vhmuWlF2L_goFxa4xmDnTcxPvG_Z038A=w1470-h559-no">
-	<img width="300" src="https://lh3.googleusercontent.com/pw/AM-JKLVBCMpDeZQtJJXvEZquM56zN7TSVx1FrqvSguG47QXYfUwWHXOh_ZW-3SDl-5lPUca_Zg_a4W_bzuBRJzh_fOvo6c0dVXnspQqAENtuXnUffW06ss17QK66vhmuWlF2L_goFxa4xmDnTcxPvG_Z038A=w1470-h559-no">
-</a>
-
-Credit: https://youtu.be/QYUcXIhxL1I?t=537
-
-
 ## Gsa Sensor (MQ2)
 Gas sensors (the cheap one that we purchase for experiment)
 needed to be calibrated after purchasing.
