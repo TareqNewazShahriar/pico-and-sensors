@@ -1,3 +1,9 @@
+# This program will read temperature from PICO and
+# will show the output using the build-in LED.
+# If the temperature is 24 degree celcius, then the
+# LED will flash twice then pause for couple of seconds 
+# and then will flash four times.
+
 from machine import Pin
 import utime
 
