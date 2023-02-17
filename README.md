@@ -32,8 +32,8 @@ min current: 128 max current: 65535 avg: 51398.02
 Total 100000 reading taken in 4566 ms
 ```
 
-## Gsa Sensor (MQ2)
-Gas sensors (the cheap one that we purchase for experiment)
+## Gas Sensor - MQ2
+Gas sensors (the cheap one)
 needed to be calibrated after purchasing.
 I.e, after running the sensor, voltage output in clean air should be used to calibrate the sensor reading.
 Those sensors are not that accurate and should not be used
