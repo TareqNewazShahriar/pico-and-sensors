@@ -1,4 +1,4 @@
-# raspberry-pi-pico-codes
+# pico-and-sensors
 
 ## Regulating AC Current
 Regulating AC current using TRIAC and optocouplers; and sending command using a remote control. I used PWM to regulate the current; this method should not be used for real-life appliances.
